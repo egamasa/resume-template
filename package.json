@@ -1,0 +1,24 @@
+{
+  "name": "resume-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CI/CD職務経歴書テンプレート",
+  "scripts": {
+    "lint": "./node_modules/.bin/textlint --cache ./resume.md",
+    "build": "./node_modules/.bin/md-to-pdf ./resume.md --config-file ./config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/egamasa/resume-template.git"
+  },
+  "author": "egamasa (https://github.com/egamasa/)",
+  "license": "ISC",
+  "dependencies": {
+    "md-to-pdf": "^3.2.1"
+  },
+  "devDependencies": {
+    "textlint": "^11.7.7",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-prh": "^5.3.0"
+  }
+}
