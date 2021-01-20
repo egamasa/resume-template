@@ -1,0 +1,17 @@
+{
+  "stylesheet": [
+    "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css",
+    "./style/style.css"
+  ],
+  "body_class": "markdown-body",
+  "highlight_style": "github",
+  "pdf_options": {
+    "format": "A4",
+    "margin": "10mm 20mm",
+    "printBackground": true,
+    "displayHeaderFooter": true,
+    "headerTemplate": "<section></section>",
+    "footerTemplate": "<style>section {margin: 0 auto; font-size: 9px;}</style><section><div>Page <span class=\"pageNumber\"></span> of <span class=\"totalPages\"></span></div></section>"
+  },
+  "stylesheet_encoding": "utf-8"
+}

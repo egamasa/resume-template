@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'HackGen';
+  src: url(./style/fonts/HackGenNerdConsole-Regular.ttf);
+}
+@font-face {
+  font-family: 'SourceHanSans';
+  src: url(./style/fonts/SourceHanSansJP-Normal.otf);
+  /* src: url(./style/fonts/SourceHanSansJP-Light.otf); */
+}
+
+.markdown-body {
+  font-size: 13px;
+  font-family: 'SourceHanSans';
+}
+.page-break {
+  page-break-after: always;
+}
+.markdown-body pre {
+  font-family: 'HackGen';
+}
+.markdown-body pre > code {
+  white-space: pre-wrap;
+}
+
+.markdown-body h1 {
+  text-align: center;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.markdown-body h2 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.markdown-body h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.markdown-body blockquote{
+  text-align: right;
+  color: initial;
+  padding: 0;
+  margin-bottom: 0;
+  border-left: none;
+}
